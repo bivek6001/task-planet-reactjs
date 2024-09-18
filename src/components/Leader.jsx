@@ -15,7 +15,7 @@ const Leader = () => {
   return (
     <>
     <div className='w-screen h-screen bg-[#F4F2EE] overflow-hidden  ' >
-    <div className='mx-auto bg-white  w-[40%] h-[100%] p-2 border relative box-border'>
+    <div className='mx-auto bg-white  w-[100%] md:w-[40%] h-[100%] p-2 border relative box-border'>
 
 <div className="page-details flex justify-between items-center h-[10%]">
   <h1 className='font-bold text-xl'> LeaderBoard</h1>

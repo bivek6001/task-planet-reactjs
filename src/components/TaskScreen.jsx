@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const  TaskScreen = () => {
   return (
     <div className='w-screen h-screen relative  ' >
-        <div className='mx-auto  w-[40%] h-[100%] p-2 border relative '>
+        <div className='mx-auto  w-[100%] md:w-[40%] h-[100%] p-2 border relative '>
     <div className="page-details flex justify-between h-[10%]">
         <h1 className='font-bold text-xl'>Task details</h1>
         <div className='flex '>

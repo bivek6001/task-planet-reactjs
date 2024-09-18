@@ -8,7 +8,7 @@ const Modal = ({setModal,modal}) => {
   return (
     <>
   
-    <div className={`bg-opacity-30 transition-all ease-in-out duration-500 translate-x-0  ${modal ? "translate-y-[0]" : "translate-y-[150%]"}  absolute bg-black  top-0  h-screen w-[40vw] border`} >
+    <div className={`bg-opacity-30 transition-all ease-in-out duration-500 translate-x-0  ${modal ? "translate-y-[0]" : "translate-y-[150%]"}  absolute bg-black w-[100%]  top-0  h-screen  border`} >
                     <div onClick={()=>{
                         setModal(!modal)
                     }} className="cross absolute top-[260px] right-0 w-[30px] h-[30px]  rounded-full " ><IoCloseCircle  size={"100%"} className='text-white ' /></div>
